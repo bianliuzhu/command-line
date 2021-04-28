@@ -1,10 +1,14 @@
 {
-  "name": "cmd-cli",
+  "name": "cmd-cli-g",
   "version": "1.0.0",
   "description": "一个命令行程序",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GleasonBian/command-line"
   },
   "bin": {
     "cmd": "./index.js"
