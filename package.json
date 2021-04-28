@@ -1,11 +1,22 @@
 {
-  "name": "command-line",
+  "name": "cmd-cli",
   "version": "1.0.0",
   "description": "一个命令行程序",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cmd": "./index.js"
+  },
   "author": "Gleason",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "json-format": "^1.0.1",
+    "shelljs": "^0.8.4"
+  }
 }
